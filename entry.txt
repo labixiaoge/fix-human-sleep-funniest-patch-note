@@ -1,0 +1,1 @@
+Fixed: sleep no longer pauses at 2:47 a.m. to ask "Are you still watching?"
