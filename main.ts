@@ -8,7 +8,7 @@
 import { mkdirSync, writeFileSync } from "node:fs";
 
 const LINE =
-  'Fixed: sleep no longer pauses at 2:47 a.m. to ask "Are you still watching?"';
+  "Fixed: sleep no longer reboots at 3 a.m. to install updates you never asked for.";
 
 mkdirSync("/output", { recursive: true });
 writeFileSync("/output/entry.txt", LINE, "utf8");
